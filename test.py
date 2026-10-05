@@ -1,30 +1,12 @@
-import os
-import mysql.connector
-from dotenv import load_dotenv
-from urllib.parse import urlparse
+from tools.tavily_tool import tavily_search
+from tools.flight_tool import search_flights
 
-load_dotenv()
+# res = tavily_search("Best hotels in India")
+# print(res)
 
-url = os.getenv("DATABASE_URL")
 
-parsed = urlparse(url)
+# res = search_flights("Plan a 7 days Nepal trip from Bangladesh")
+# print(res)
 
-connection = mysql.connector.connect(
-    host=parsed.hostname,
-    port=parsed.port,
-    user=parsed.username,
-    password=parsed.password,
-    database=parsed.path.lstrip("/")
-)
-
-if connection.is_connected():
-    print("✅ MySQL connection successful!")
-
-cursor = connection.cursor()
-cursor.execute("SELECT DATABASE();")
-
-database = cursor.fetchone()[0]
-print(f"✅ Connected database: {database}")
-
-cursor.close()
-connection.close()
+result=search_flights("ind to japan")
+print(result)
