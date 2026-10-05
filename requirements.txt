@@ -16,5 +16,6 @@ nest_asyncio==1.6.0
 mcp==1.28.1
 certifi==2026.6.17
 
-# MySQL
-mysql-connector-python
+
+# MySQL LangGraph Checkpointer
+langgraph-checkpoint-mysql[pymysql]==3.0.0

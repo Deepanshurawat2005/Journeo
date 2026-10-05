@@ -1,4 +1,2 @@
 # Journeo
 
-## How to run?
-
