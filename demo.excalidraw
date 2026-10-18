@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://excalidraw.com",
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
   "elements": [
     {
       "id": "ri57-a6_zzddDN6Y9A-4S",
@@ -43,7 +43,7 @@
       "type": "text",
       "x": 165.98434448242188,
       "y": 294.61832835939134,
-      "width": 969.3012084960938,
+      "width": 933.1915893554688,
       "height": 45,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -58,20 +58,20 @@
       "index": "a1",
       "roundness": null,
       "seed": 1928921465,
-      "version": 118,
-      "versionNonce": 591276234,
+      "version": 133,
+      "versionNonce": 1800970748,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1785132910681,
+      "updated": 1792347608471,
       "link": null,
       "locked": false,
-      "text": "✈️TripMate AI - LangGraph Multi-Agent Travel Planner",
+      "text": "✈️Journeo AI - LangGraph Multi-Agent Travel Planner",
       "fontSize": 36,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "✈️TripMate AI - LangGraph Multi-Agent Travel Planner",
+      "originalText": "✈️Journeo AI - LangGraph Multi-Agent Travel Planner",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -172,7 +172,7 @@
       "version": 136,
       "versionNonce": 859689738,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785133072097,
       "link": null,
       "locked": false,
@@ -244,7 +244,7 @@
       "version": 107,
       "versionNonce": 1883504150,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785133219065,
       "link": null,
       "locked": false,
@@ -261,8 +261,7 @@
     "gridSize": 20,
     "gridStep": 5,
     "gridModeEnabled": false,
-    "viewBackgroundColor": "#ffffff",
-    "lockedMultiSelections": {}
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {
     "e7889e35c187a94d2f9625b3db8c5064584aca2e": {
