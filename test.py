@@ -1,19 +1,7 @@
-from tools.tavily_tool import tavily_search
-from tools.flight_tool import search_flights
-from backend import run_travel_agent
-# res = tavily_search("Best hotels in India")
-# print(res)
+import asyncio
+from mcp_client_test import get_all_tools,tavily_mcp_search
 
 
-# result=search_flights("ind to japan")
-# print(result)
-
-user_input = input("Enter travel request: ")
-
-response = run_travel_agent(
-    user_input=user_input,
-    thread_id="test_user"
-)
-
-print("\nFINAL RESPONSE:\n")
-print(response["answer"])
+if __name__ == "__main__":
+    results = asyncio.run(tavily_mcp_search("tell me about the latest 2 news in AI"))
+    print(results)
